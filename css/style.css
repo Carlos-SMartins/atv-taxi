@@ -6,17 +6,52 @@ html {
 a{
     color: black;
     text-decoration: none;
-    margin: 15px;
+}
+a.logo{
+    display: flex;
+    align-items: center;
 }
 a.login{
     color: #fdbc05;
-    margin: 10px;
+    margin: 15px;
 }
 a.getstarted{
     color: white;
     background-color: #fdbc05;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+}
+header{
+    padding: 2vw 8vw 2vw 8vw
+}
+
+section.banner{
+    background:url(../src/img/iPhone-13-Pro-Front.png) no-repeat right, linear-gradient(rgba(225, 244, 225, 0.5), rgba(225, 244, 225, 0.5)), url(../src/img/Hero.png);
+    padding: 10vw 8vw;
+    background-size: auto 100%, auto, 100% auto;
+}
+section.banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(37, 43, 67);
+}
+section.banner p.text {
+    width: 30%;
+    color: gray;
+}
+section.banner p{
+    margin: 40px 0;
+}
+section.banner p button span{
+    margin: 0px 5px 0 0;
+}
+section.banner button{
+    background-color: rgb(37, 43, 67) ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none; 
+    font-size: 1.3rem;
 }
 
 @media (min-width:1024px){
@@ -42,10 +77,5 @@ header nav ul li:hover ul{
 header nav ul ul li{
     margin: 10px 0px 10px 0px;
 }
-button{
-    background-color: black;
-    color: white;
-    background-size: 30;
-    
-}
+
 
